@@ -163,7 +163,7 @@
                         "TenableAccessKey": "[parameters('TenableAccessKey')]",
                         "TenableSecretKey": "[parameters('TenableSecretKey')]",
                         "Interval": "[parameters('Interval')]",
-                        "StartTime": "[parameters('StartTime')]"
+                        "StartTime": "[parameters('StartTime')]",
                         "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/AkhilVKhatode/azure-sentinel-tenable-io-integration/blob/master/TenableConnector/TenableSentinelConn.zip?raw=true"
                     }
                 }
