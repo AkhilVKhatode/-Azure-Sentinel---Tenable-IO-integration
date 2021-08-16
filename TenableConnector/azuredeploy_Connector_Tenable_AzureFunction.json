@@ -29,7 +29,7 @@
             "defaultValue": "0 * * * *"
         },
         "StartTime":{
-            "type": "string",
+            "type": "object",
             "defaultValue": "2021-01-01T00:00:00Z"
         }
     },
@@ -164,7 +164,7 @@
                         "TenableSecretKey": "[parameters('TenableSecretKey')]",
                         "Interval": "[parameters('Interval')]",
                         "StartTime": "[parameters('StartTime')]"
-                        // "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/AkhilVKhatode/azure-sentinel-tenable-io-integration/blob/master/TenableConnector/TenableSentinelConn.zip?raw=true"
+                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/AkhilVKhatode/azure-sentinel-tenable-io-integration/blob/master/TenableConnector/TenableSentinelConn.zip?raw=true"
                     }
                 }
             ]
