@@ -30,7 +30,7 @@
         },
         "StartTime":{
             "type": "object",
-            "defaultValue": "2021-01-01T00:00:00Z"
+            "defaultValue": 2021-01-01T00:00:00Z
         }
     },
     "variables": {
