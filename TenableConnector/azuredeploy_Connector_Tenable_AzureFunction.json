@@ -17,7 +17,7 @@
             "defaultValue": "<workspaceKey>"
         },
         "TenableAccessKey": {
-            "type": "string",
+            "type": "securestring",
             "defaultValue": "<TenableAccessKey>"
         },
         "TenableSecretKey": {
@@ -162,8 +162,9 @@
                         "WorkspaceKey": "[parameters('WorkspaceKey')]",
                         "TenableAccessKey": "[parameters('TenableAccessKey')]",
                         "TenableSecretKey": "[parameters('TenableSecretKey')]",
-
-                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/AkhilVKhatode/azure-sentinel-tenable-io-integration/blob/master/TenableConnector/TenableSentinelConn.zip?raw=true"
+                        "Interval": "[parameters('Interval')]",
+                        "StartTime": "[parameters('StartTime')]"
+                        // "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/AkhilVKhatode/azure-sentinel-tenable-io-integration/blob/master/TenableConnector/TenableSentinelConn.zip?raw=true"
                     }
                 }
             ]
