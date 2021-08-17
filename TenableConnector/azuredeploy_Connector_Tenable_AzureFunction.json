@@ -29,8 +29,8 @@
             "defaultValue": "0 * * * *"
         },
         "StartTime":{
-            "type": "object",
-            "defaultValue": 2021-01-01T00:00:00Z
+            "type": "string",
+            "defaultValue": "2021-01-01T00:00:00Z"
         }
     },
     "variables": {
