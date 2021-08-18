@@ -53,9 +53,10 @@
             "type": "string",
             "defaultValue": "cloud.tenable.com"
         },
-        "Tags":{
+        "TenableTags":{
             "type": "string",
             "defaultValue": ""
+
         }
     },
     "variables": {
@@ -194,7 +195,7 @@
                         "SyncPlugins": "[parameters('SyncPlugins')]",
                         "VerifySSL": "[parameters('VerifySSL')]",
                         "Address": "[parameters('Address')]",
-                        "TenableTags": "[parameters('Tags')]",
+                        "TenableTags": "[parameters('TenableTags')]",
                         "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/AkhilVKhatode/azure-sentinel-tenable-io-integration/blob/master/TenableConnector/TenableSentinelConn.zip?raw=true"
                     }
                 }
