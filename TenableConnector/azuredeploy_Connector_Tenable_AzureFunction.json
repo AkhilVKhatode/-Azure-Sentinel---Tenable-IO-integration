@@ -31,6 +31,30 @@
         "StartTime":{
             "type": "string",
             "defaultValue": "2021-01-01T00:00:00Z"
+        },
+        "LowestSeverity":{
+            "type": "string",
+            "allowedValues": ["info","low", "medium", "high", "critical"],
+            "defaultValue": "info"
+        },
+        "FixedVulnerability":{
+            "type": "bool",
+            "defaultValue": "False"
+        },
+        "SyncPlugins":{
+            "type": "bool",
+            "defaultValue": "False"
+        },
+        "VerifySSL":{
+            "type": "bool",
+            "defaultValue": "False"
+        },
+        "Address":{
+            "type": "string",
+            "defaultValue": "cloud.tenable.com"
+        },
+        "Tags":{
+            "type": "string"
         }
     },
     "variables": {
@@ -164,6 +188,12 @@
                         "TenableSecretKey": "[parameters('TenableSecretKey')]",
                         "Interval": "[parameters('Interval')]",
                         "StartTime": "[parameters('StartTime')]",
+                        "LowestSeverity":"[parameters('LowestSeverity')]",
+                        "FixedVulnerability": "[parameters('FixedVulnerability')]",
+                        "SyncPlugins": "[parameters('SyncPlugins')]",
+                        "VerifySSL": "[parameters('VerifySSL')]",
+                        "Address": "[parameters('Address')]",
+                        "TenableTags": "[parameters('Tags')]",
                         "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/AkhilVKhatode/azure-sentinel-tenable-io-integration/blob/master/TenableConnector/TenableSentinelConn.zip?raw=true"
                     }
                 }
