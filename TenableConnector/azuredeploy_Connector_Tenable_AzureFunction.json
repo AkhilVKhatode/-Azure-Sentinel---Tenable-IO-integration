@@ -54,7 +54,8 @@
             "defaultValue": "cloud.tenable.com"
         },
         "Tags":{
-            "type": "string"
+            "type": "string",
+            "defaultValue": ""
         }
     },
     "variables": {
