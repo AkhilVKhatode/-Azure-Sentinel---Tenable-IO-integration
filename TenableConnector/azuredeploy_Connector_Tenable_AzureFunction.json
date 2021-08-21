@@ -30,7 +30,7 @@
         },
         "StartTime":{
             "type": "string",
-            "defaultValue": "07/01/2021 00:00:00"
+            "defaultValue": "07/01/2021 00:00:00",
             "metadata" : {
                 "description": "Start Date in mm/dd/YYYY HH:MM:SS format."
             }
