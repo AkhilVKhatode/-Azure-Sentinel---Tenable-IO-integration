@@ -39,15 +39,15 @@
         },
         "FixedVulnerability":{
             "type": "bool",
-            "defaultValue": "False"
+            "defaultValue": "false"
         },
         "SyncPlugins":{
             "type": "bool",
-            "defaultValue": "False"
+            "defaultValue": "false"
         },
         "VerifySSL":{
             "type": "bool",
-            "defaultValue": "False"
+            "defaultValue": "false"
         },
         "Address":{
             "type": "string",
